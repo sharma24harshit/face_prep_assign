@@ -1,16 +1,14 @@
-import './App.css'
-import Navbar from './Components/Navbar'
-import Allroutes from './Pages/Allroutes'
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Allroutes from "./Pages/Allroutes";
 
 function App() {
-  
-
   return (
     <>
-    <Navbar/>
-      <Allroutes/>
+      <Navbar />
+      <Allroutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
